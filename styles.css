@@ -33,7 +33,7 @@
 
 /* Section Style */
 .section {
-    padding: auto 10vw; /* Adjust as needed */
+    padding: 1rem 25%; /* Adjust as needed */
     height: 80vh; /* Height adjustment */
     /* Optional: Add more content below to enable scrolling */
 }
@@ -63,4 +63,5 @@
     align-items: center;
     justify-content: center;
     text-align: center;
+    flex-wrap: wrap;
 }
