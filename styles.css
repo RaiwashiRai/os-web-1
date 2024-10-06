@@ -1,0 +1,66 @@
+/* Background Image */
+.background {
+    position: fixed; /* Fixes the background in place */
+    top: 0;
+    left: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    background-image: url("./images/img1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; /* Ensures the image covers the entire area */
+    z-index: -1; /* Keeps it behind other content */
+}
+
+.bg-c1{
+    background-color: white;
+}
+
+.bg-c2{
+    background-color: darkblue;
+    color: white;
+}
+
+/* Overlay to mute the background image */
+.overlay {
+    position: fixed; /* Keeps overlay fixed over the background */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent overlay */
+    z-index: 0; /* Below content but above background */
+}
+
+/* Section Style */
+.section {
+    padding: auto 10vw; /* Adjust as needed */
+    height: 80vh; /* Height adjustment */
+    /* Optional: Add more content below to enable scrolling */
+}
+
+/* Navbar */
+
+.navbar-style {
+    margin: 1rem 5%;
+}
+
+/* Title Block */
+.title {
+    color: white;
+    font-size: larger;
+}
+
+.footer{
+    padding: 1rem 5%;
+    color: aliceblue;
+    height: fit-content;
+}
+
+/* flex-styles */
+.flex1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
